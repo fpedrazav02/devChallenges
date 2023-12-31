@@ -1,0 +1,73 @@
+/* CSS Style guide */
+:root {
+  --main-purple: #883ae1;
+  --main-pink: #e6d6fc;
+  --main-black: #20293a;
+  --main-gray: #6c727f;
+  --main-bei: #fafaf9;
+  --main-light-bei: #e5eaf0;
+  --main-white: #ffffff;
+  --main-font: "Sora";
+}
+
+body {
+  background-color: var(--main-bei);
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 164px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+section {
+  color: var(--main-gray);
+  padding: 16px;
+  background-color: var(--main-white);
+}
+
+p {
+  max-width: 336px;
+}
+
+footer {
+  padding-bottom: 4px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--main-black);
+}
+
+.small_text {
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  display: inline-block;
+}
+
+.tag {
+  font-size: 10px;
+  background-color: var(--main-pink);
+  color: var(--main-purple);
+  font-weight: bold;
+  border-radius: 14px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border: var(--main-pink) 6px solid;
+}
+
+.card {
+  border-radius: 10px;
+  border-color: #20293a;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
